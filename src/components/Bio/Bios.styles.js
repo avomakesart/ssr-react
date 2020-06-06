@@ -9,9 +9,13 @@ export const Container = styled.div`
 
 export const BioContainer = styled.div`
   background: black;
-  margin: -23rem 0;
+  margin: -26rem 0;
   position: relative;
   z-index: 100;
+
+  @media (min-width: 600px) {
+    margin: -23rem 0;
+  }
 
   @media (min-width: 900px) {
     background: black;
@@ -41,9 +45,9 @@ export const InfoContainer = styled.div`
   @media (min-width: 900px) {
     flex-direction: row;
     justify-content: space-around;
+    padding: 2rem;
   }
 `;
-
 
 export const ParagraphContainer = styled.div`
   display: flex;
@@ -78,8 +82,8 @@ export const OverlayContent = styled.div`
 
 export const CloseButton = styled.button`
   position: absolute;
-  top: 36px;
-  right: 45px;
+  top: 3.2rem;
+  right: 1rem;
   color: white;
   font-size: 37px;
   background: transparent;

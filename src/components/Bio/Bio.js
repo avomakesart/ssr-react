@@ -89,7 +89,7 @@ export default function Bio() {
                 </ParagraphImage>
                 <ParagraphImage>
                   <BoldParagraph>Influencias:</BoldParagraph> Unearth, VEIL OF
-                  MAYA, <br /> As I Lay Dying
+                  MAYA, As I <br /> Lay Dying
                 </ParagraphImage>
                 <ParagraphImage>
                   <BoldParagraph>Otros Proyectos:</BoldParagraph> INFNT
@@ -143,9 +143,8 @@ export default function Bio() {
                   </span>
                 </ParagraphImage>
                 <ParagraphImage>
-                  <BoldParagraph>Influencias:</BoldParagraph> August Burns Red, <br />
-                  Periphery y 
-                  Oceans Ate Alaska
+                  <BoldParagraph>Influencias:</BoldParagraph> August Burns Red,
+                  Periphery <br /> Oceans Ate Alaska
                 </ParagraphImage>
                 <ParagraphImage>
                   <BoldParagraph>Otros Proyectos:</BoldParagraph> Scybdis

@@ -68,7 +68,28 @@ export const ListeningSongLi = styled.li`
 export const AudioButton = styled.button`
   background: transparent;
   border: none;
-  margin: 34rem auto;
+  margin: 28rem -15px;
+
+  @media (min-width: 600px) {
+    margin: 15rem -15px;
+  }
+
+  @media (min-width: 768px) {
+    margin: 15rem -15px;
+  }
+
+  @media (min-width: 900px) {
+    margin: 34rem auto;
+  }
+
+  @media (min-width: 1000px) {
+    margin: 3rem auto;
+  }
+
+  @media (min-width: 1200px) {
+    margin: 3rem auto;
+  }
+
 `
 
 export const HeadPhonesIcon = styled(FaHeadphones)`

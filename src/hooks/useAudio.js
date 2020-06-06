@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { HeadPhonesIcon,
-  MuteIcon, AudioButton } from '../components/Layout/Footer/Footer.styles'
+import {
+  HeadPhonesIcon,
+  MuteIcon,
+  AudioButton,
+} from "../components/Layout/Footer/Footer.styles";
 
 const useMultiAudio = (urls) => {
   const [sources] = useState(
@@ -45,7 +48,7 @@ const useMultiAudio = (urls) => {
     sources.forEach((source, i) => {
       source.audio.addEventListener("ended", () => {
         const newPlayers = [...players];
-        newPlayers[i].playing = false;
+        newPlayers[i].playing = true;
         setPlayers(newPlayers);
       });
     });
@@ -58,7 +61,7 @@ const useMultiAudio = (urls) => {
         });
       });
     };
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return [players, toggle];
@@ -78,7 +81,9 @@ const MultiPlayer = ({ urls }) => {
 
 const Player = ({ player, toggle }) => (
   <div className="flex-fixed">
-    <AudioButton onClick={toggle}>{player.playing ? <MuteIcon /> : <HeadPhonesIcon /> }</AudioButton>
+    <AudioButton onClick={toggle}>
+      {player.playing ? <MuteIcon /> : <HeadPhonesIcon />}
+    </AudioButton>
   </div>
 );
 
