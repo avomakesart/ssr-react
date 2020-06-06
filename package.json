@@ -1,7 +1,6 @@
 {
   "name": "ssr-example",
-  "homepage": "http://avomakesart.github.io/ardermx",
-  "author": {
+    "author": {
     "name": "Alvaro Castillo",
     "email": "alvaro_castillo@bluecatencode.com",
     "url": "http://bluecatencode.com/"
