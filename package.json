@@ -1,5 +1,6 @@
 {
   "name": "ssr-example",
+  "homepage": "http://avomakesart.github.io/ardermx",
   "author": {
     "name": "Alvaro Castillo",
     "email": "alvaro_castillo@bluecatencode.com",
@@ -32,6 +33,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "ssr": "node server/index.js"
@@ -52,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.0.0",
     "husky": "^4.2.5"
   }
 }

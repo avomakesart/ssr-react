@@ -1,7 +1,6 @@
 import React from "react";
 import { FaSpotify, FaMusic, FaBandcamp } from "react-icons/fa";
 import {
-  Container,
   SocialMediaContainer,
   SocialMediaLinks,
   SocialMediaLinksLi,
