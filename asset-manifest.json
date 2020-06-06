@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/ardermx/static/js/main.8739495f.chunk.js",
-    "main.js.map": "/ardermx/static/js/main.8739495f.chunk.js.map",
+    "main.js": "/ardermx/static/js/main.91171e3c.chunk.js",
+    "main.js.map": "/ardermx/static/js/main.91171e3c.chunk.js.map",
     "runtime-main.js": "/ardermx/static/js/runtime-main.91ad2a71.js",
     "runtime-main.js.map": "/ardermx/static/js/runtime-main.91ad2a71.js.map",
     "static/js/2.6bb1e030.chunk.js": "/ardermx/static/js/2.6bb1e030.chunk.js",
     "static/js/2.6bb1e030.chunk.js.map": "/ardermx/static/js/2.6bb1e030.chunk.js.map",
     "index.html": "/ardermx/index.html",
-    "precache-manifest.155fa681fe96895403c56f2b745b0304.js": "/ardermx/precache-manifest.155fa681fe96895403c56f2b745b0304.js",
+    "precache-manifest.c4aad1a700cab8116fb6d1372ea7949f.js": "/ardermx/precache-manifest.c4aad1a700cab8116fb6d1372ea7949f.js",
     "service-worker.js": "/ardermx/service-worker.js",
     "static/js/2.6bb1e030.chunk.js.LICENSE.txt": "/ardermx/static/js/2.6bb1e030.chunk.js.LICENSE.txt",
     "static/media/arder-inconsciente.mp3": "/ardermx/static/media/arder-inconsciente.dcbf3027.mp3",
@@ -21,6 +21,6 @@
   "entrypoints": [
     "static/js/runtime-main.91ad2a71.js",
     "static/js/2.6bb1e030.chunk.js",
-    "static/js/main.8739495f.chunk.js"
+    "static/js/main.91171e3c.chunk.js"
   ]
 }
