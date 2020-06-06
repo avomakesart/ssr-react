@@ -9,12 +9,12 @@ export default function App() {
   return (
     <Router>
       <GlobalStyle />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/bio" component={Bio} />
-          <Route exact path="/contacto" component={Contact} />
-        </Switch>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/bio" component={Bio} />
+        <Route exact path="/contacto" component={Contact} />
         <div className="gif-overlay" />
+      </Switch>
     </Router>
   );
 }
