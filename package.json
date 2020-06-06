@@ -5,6 +5,10 @@
     "email": "alvaro_castillo@bluecatencode.com",
     "url": "http://bluecatencode.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avomakesart/ardermx.git"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
