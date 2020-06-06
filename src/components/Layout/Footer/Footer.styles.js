@@ -68,7 +68,7 @@ export const ListeningSongLi = styled.li`
 export const AudioButton = styled.button`
   background: transparent;
   border: none;
-  margin: 25rem -15px;
+  margin: 23rem -15px;
 
   @media (min-width: 600px) {
     margin: 15rem -15px;
