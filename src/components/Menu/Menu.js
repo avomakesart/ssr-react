@@ -18,7 +18,7 @@ const Menu = ({ open, setOpen }) => {
       >
         Merch
       </MobileLinkAnchor>
-      <MobileLink to="/contact" onClick={() => setOpen(!open)}>
+      <MobileLink to="/contacto" onClick={() => setOpen(!open)}>
         Contact
       </MobileLink>
     </StyledMenu>
